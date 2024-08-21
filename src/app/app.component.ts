@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-exer6';
+
+  @Input() btnName: string = 'Random Cat Image'
+  @Input() btnFactName: string = 'Random Dog Facts'
 }

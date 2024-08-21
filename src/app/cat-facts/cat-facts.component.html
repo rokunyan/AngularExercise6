@@ -1,0 +1,6 @@
+<div class="info box" *ngIf="catFacts | async as localData">
+    <div> {{ localData}} </div>
+ </div>
+<br/>
+<button class="button" (click)="getRandomFacts()">{{btnFactName}}</button>
+

@@ -10,6 +10,14 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "ngx-animal-random-lib": [
+        "./dist/ngx-animal-random-lib"
+      ],
+      "ngx-animal-randoms": [
+        "./dist/ngx-animal-randoms"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
